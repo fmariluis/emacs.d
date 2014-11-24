@@ -68,5 +68,10 @@
           (lambda ()
             (setq line-spacing 0)))
 
+;;; nyan mode
+(require-package 'nyan-mode)
+(case window-system
+  ((x w32) (nyan-mode)))
+
 
 (provide 'init-gui-frames)
