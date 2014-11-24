@@ -2,6 +2,7 @@
 (require-package 'evil)
 (require-package 'evil-leader)
 (require-package 'evil-matchit)
+(require-package 'evil-nerd-commenter)
 
 ;;; Evil leader
 (global-evil-leader-mode)
