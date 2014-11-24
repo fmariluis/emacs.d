@@ -27,5 +27,7 @@
   (add-hook 'cider-repl-mode-hook
             (lambda () (setq show-trailing-whitespace nil))))
 
+;; Don't show that annoying error buffer
+(setq cider-show-error-buffer nil)
 
 (provide 'init-clojure-cider)
