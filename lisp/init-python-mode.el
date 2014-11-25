@@ -4,6 +4,12 @@
               auto-mode-alist))
 
 (require-package 'pip-requirements)
+(require-package 'virtualenvwrapper)
+
+;;; virtualenvwrapper
+(require 'virtualenvwrapper)
+(venv-initialize-interactive-shells)
+(venv-initialize-eshell)
 
 
 (provide 'init-python-mode)
