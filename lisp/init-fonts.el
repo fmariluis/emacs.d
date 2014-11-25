@@ -50,6 +50,8 @@ by the :height face attribute."
 (global-set-key (kbd "C-M-=") 'sanityinc/increase-default-font-height)
 (global-set-key (kbd "C-M--") 'sanityinc/decrease-default-font-height)
 
+;; Disabling cursor blink
+(blink-cursor-mode 0)
 
 
 (provide 'init-fonts)
