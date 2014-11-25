@@ -42,6 +42,9 @@
 (require-package 'projectile)
 (projectile-global-mode)
 
+;;; Disable large-file warning
+(setq large-file-warning-threshold nil)
+
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
