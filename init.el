@@ -38,6 +38,10 @@
 (require-package 'scratch)
 (require-package 'mwe-log-commands)
 
+;;; Adding support for projectile here
+(require-package 'projectile)
+(projectile-global-mode)
+
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
