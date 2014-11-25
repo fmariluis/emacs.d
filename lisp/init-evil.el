@@ -9,6 +9,23 @@
 ;;; Evil leader key works in all states
 (setq evil-leader/in-all-states 1)
 
+;;; Defining some evil-leader shortcuts
+;;; Probably we should move these into another file
+(evil-leader/set-leader ",")
+(evil-leader/set-key
+  "." 'jedi:goto-definition
+  "a" 'ag-project
+  "b" 'switch-to-buffer
+  "c" 'evilnc-comment-or-uncomment-lines
+  "e" 'flycheck-list-errors
+  "i" 'imenu
+  "j" 'ace-jump-mode
+  "k" 'kill-buffer
+  "p" 'projectile-switch-project
+  "r" 'git-gutter:revert-hunk
+  "u" 'undo-tree-visualize
+  "," 'projectile-find-file)
+
 (require 'evil)
 (evil-mode 1)
 
