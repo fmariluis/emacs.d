@@ -37,6 +37,7 @@
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'mwe-log-commands)
+(require-package 'fic-mode)
 
 ;;; Adding support for projectile here
 (require-package 'projectile)
