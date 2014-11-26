@@ -5,6 +5,8 @@
 
 (require-package 'pip-requirements)
 (require-package 'virtualenvwrapper)
+(require-package 'py-isort)
+(require-package 'py-autopep8)
 
 ;;; virtualenvwrapper
 (require 'virtualenvwrapper)
