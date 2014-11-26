@@ -1,28 +1,26 @@
-# A reasonable Emacs config
+# A reasonable Emacs config, with proper vim emulation
 
-This is my emacs configuration tree, continually used and tweaked
-since 2000, and it may be a good starting point for other Emacs
-users, especially those who are web developers. These days it's
-somewhat geared towards OS X, but it is known to also work on Linux
-and Windows.
+A fork of the excellent https://github.com/purcell/emacs.d by Steve Purcell, with some adjustments:
 
-Emacs itself comes with support for many programming languages. This
-config adds improved defaults and extended support for the following:
+* Evil mode enabled by default
+* Projectile
+* A more thorough Python support
+* No PHP mode ;)
+
+Also:
 
 * Ruby / Ruby on Rails
 * CSS / LESS / SASS / SCSS
 * HAML / Markdown / Textile / ERB
 * Clojure (with Cider and nRepl)
 * Javascript / Coffeescript
-* Python
-* PHP
 * Haskell
 * Erlang
 * Common Lisp (with Slime)
 
 In particular, there's a nice config for *tab autocompletion*, and
 flycheck is used to immediately highlight syntax errors in Ruby, HAML,
-Python, Javascript, PHP and a number of other languages.
+Python, Javascript and a number of other languages.
 
 ## Requirements
 
@@ -89,15 +87,3 @@ If you hit any problems, please first ensure that you are using the latest versi
 of this code, and that you have updated your packages to the most recent available
 versions (see "Updates" above). If you still experience problems, go ahead and
 [file an issue on the github project](https://github.com/purcell/emacs.d).
-
--Steve Purcell
-
-<hr>
-
-[![](http://api.coderwall.com/purcell/endorsecount.png)](http://coderwall.com/purcell)
-
-[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)
-
-[sanityinc.com](http://www.sanityinc.com/)
-
-[@sanityinc](https://twitter.com/)
