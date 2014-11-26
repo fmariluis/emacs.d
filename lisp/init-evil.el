@@ -24,6 +24,7 @@
   "p" 'projectile-switch-project
   "r" 'git-gutter:revert-hunk
   "u" 'undo-tree-visualize
+  "8" 'py-autopep8
   "," 'projectile-find-file)
 
 (require 'evil)
