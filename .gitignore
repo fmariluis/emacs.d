@@ -34,3 +34,5 @@ site-lisp/package/
 /image-dired/
 /eshell
 projectile-bookmarks.eld
+/recentf
+/ido.last
